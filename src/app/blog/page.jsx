@@ -21,7 +21,7 @@ const BlogListing = () => {
         </section>
         <section className="my-20">
           <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {[1].map((item) => (
+            {[1, 2, 3, 4, 5, 6].map((item) => (
               <PostCard key={item} />
             ))}
           </div>
