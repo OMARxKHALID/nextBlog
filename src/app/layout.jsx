@@ -1,4 +1,3 @@
-"use client";
 import "./globals.css";
 import React from "react";
 import { Plus_Jakarta_Sans, Source_Serif_4, Work_Sans } from "next/font/google";

@@ -2,7 +2,6 @@ import { FooterDataOne, FooterDataTwo } from "@/data/footerData";
 import Link from "next/link";
 import React from "react";
 import NewsLetter from "@/components/molecules/newsletter/NewsLetter";
-import { Favicon } from "@/components/organism/header";
 
 const Footer = () => {
   return (
@@ -31,7 +30,7 @@ const Footer = () => {
             </div>
             <div className="mt-1">
               <a
-                href="tel:880123456789"
+                href="tel:+9230306828908"
                 className="font-semibold text-base-content text-base"
               >
                 Phone :{" "}
@@ -83,16 +82,18 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-4 md:gap-0 md:flex-row items-center justify-between py-8 bg-base-200 border-t border-base-content/10">
           <div className="flex items-center gap-2.5">
-            <Link href="/">
-              <Favicon className={`text-base-content`} />
-            </Link>
             <div>
               <h4 className="text-xl text-base-content font-sans">
-                Meta<strong>Blog</strong>
+                NEXT<strong>BLOG</strong>
               </h4>
-              <p className="mt-0.5 text-base-content/70 text-base">
-                © JS Template 2023. All Rights Reserved.
-              </p>
+              <a
+                href="https://github.com/OMARxKHALID"
+                className="mt-0.5 text-base-content/70 font-normal hover:text-primary hover:duration-300 transition"
+                target="_blank"
+              >
+                ©OMARxKHALID
+              </a>{" "}
+              2024. All Rights Reserved.
             </div>
           </div>
           <div className="flex items-center gap-4 text-base-content/70">
